@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XWUuLBgVnsrnZcOMRi4uVYonJ/uo7KUKasNuqvzSVqYGO+qDsyBzGg4qCzlROunQPFLU5sg8P9TLnLHGaMGn5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\My\\OneDrive\\Документы\\конспекты\\ОАиП C#\\визуальная новелла\\overlife_novel\\overlife_novel\\overlife_novel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\My\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

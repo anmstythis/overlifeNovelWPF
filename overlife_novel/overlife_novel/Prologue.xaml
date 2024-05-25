@@ -1,0 +1,25 @@
+﻿<Page x:Name="prologue" x:Class="overlife_novel.Prologue"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:overlife_novel"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="Prologue" Foreground="White" Background="Black" Loaded="prologue_Loaded">
+    <Grid x:Name="prol" Opacity="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="panel"  Grid.Row="1" Width="0">
+            <TextBlock x:Name="who" FontSize="28" Text="???" FontFamily="Cascadia Mono SemiBold" Background="#293E5A"/>
+            <TextBlock x:Name="says" FontSize="24" TextWrapping="Wrap" Text="" FontFamily="Cascadia Code SemiLight"/>
+        </StackPanel>
+        <Button x:Name="next" Grid.Row="1" Opacity="0" Click="next_Click"/>
+        <StackPanel x:Name="stack" Height="100" Width="0">
+            <TextBox x:Name="yourName" Height="50" FontFamily="Cascadia Code SemiLight" TextWrapping="Wrap"/>
+            <Button x:Name="saveName" Height="50" Content="Сохранить имя" Click="saveName_Click" FontFamily="Cascadia Code SemiBold"/>
+        </StackPanel>
+    </Grid>
+</Page>

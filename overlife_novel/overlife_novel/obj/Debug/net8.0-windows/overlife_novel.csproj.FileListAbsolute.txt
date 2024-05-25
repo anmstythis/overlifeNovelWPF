@@ -1,0 +1,62 @@
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.exe
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.deps.json
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.runtimeconfig.json
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.pdb
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel_MarkupCompile.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel_MarkupCompile.lref
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.g.resources
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.AssemblyInfoInputs.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.AssemblyInfo.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.CoreCompileInputs.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\refint\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.pdb
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.genruntimeconfig.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\ref\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\Prologue.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\Prologue.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\YesRoute\YesPage.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\YesRoute\YesPage.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.Properties.Resources.resources
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.GenerateResource.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\StartGame.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\StartGame.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.AssemblyReference.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.CopyComplete
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.exe
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.deps.json
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.runtimeconfig.json
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\overlife_novel.pdb
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.AssemblyReference.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\Prologue.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\StartGame.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\YesRoute\YesPage.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel_MarkupCompile.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel_MarkupCompile.lref
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\Prologue.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\StartGame.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\YesRoute\YesPage.baml
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.g.resources
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.Properties.Resources.resources
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.GenerateResource.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.AssemblyInfoInputs.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.AssemblyInfo.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.CoreCompileInputs.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.csproj.CopyComplete
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\refint\overlife_novel.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.pdb
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\overlife_novel.genruntimeconfig.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\obj\Debug\net8.0-windows\ref\overlife_novel.dll

@@ -1,0 +1,28 @@
+﻿<Page x:Class="overlife_novel.StartGame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:overlife_novel"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="StartGame">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image gif:ImageBehavior.AnimatedSource="gif comp.gif"  Grid.ColumnSpan="2" Grid.RowSpan="3"  Source="/gif comp.gif" Stretch="UniformToFill" Opacity="0.9"/>
+        <TextBlock Text="OVERLIFE (фрагмент)" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" FontFamily="Cascadia Code SemiBold" FontWeight="Bold" Foreground="#FFCDD6F4"/>
+        <Image gif:ImageBehavior.AnimatedSource="ritsu-waving.gif" Source="/ritsu-waving.gif" Grid.Column="1" />
+        <Button x:Name="newGame" Grid.Row="1" Content="Новая игра" Click="newGame_Click" FontFamily="Cascadia Code SemiLight"/>
+        <Button x:Name="loadGame" Grid.Row="2" Content="Загрузить игру" FontFamily="Cascadia Mono SemiLight"/>
+    </Grid>
+</Page>

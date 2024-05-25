@@ -1,0 +1,12 @@
+﻿<Window x:Class="overlife_novel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:overlife_novel"
+        mc:Ignorable="d"
+        Title="Визуальная новелла OVERLIFE" Height="450" Width="700" Icon="/ritsu kokori pixel sprite.png" ResizeMode="CanMinimize">
+    <Grid>
+        <Frame x:Name="pageFrame" Grid.ColumnSpan="2" Grid.RowSpan="3" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

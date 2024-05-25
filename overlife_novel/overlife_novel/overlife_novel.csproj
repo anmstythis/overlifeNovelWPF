@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="gif comp.gif" />
+    <None Remove="ritsu kokori pixel sprite.png" />
+    <None Remove="ritsu-waving.gif" />
+    <None Remove="Sprites\.png" />
+    <None Remove="Sprites\jin.PNG" />
+    <None Remove="Sprites\makoto greeting.PNG" />
+    <None Remove="Sprites\makoto smiling.PNG" />
+    <None Remove="Sprites\makoto surprised.PNG" />
+    <None Remove="Sprites\saiko close.PNG" />
+    <None Remove="Sprites\saiko open.PNG" />
+    <None Remove="Sprites\saiko outside 2.PNG" />
+    <None Remove="Sprites\saiko outside.PNG" />
+    <None Remove="Sprites\satoru calm.PNG" />
+    <None Remove="Sprites\satoru smiling.PNG" />
+    <None Remove="Sprites\satoru thinking.PNG" />
+    <None Remove="Sprites\tomoe.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NoRoute\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="gif comp.gif" />
+    <Resource Include="ritsu kokori pixel sprite.png" />
+    <Resource Include="ritsu-waving.gif" />
+    <Resource Include="Sprites\jin.PNG" />
+    <Resource Include="Sprites\makoto greeting.PNG" />
+    <Resource Include="Sprites\makoto smiling.PNG" />
+    <Resource Include="Sprites\makoto surprised.PNG" />
+    <Resource Include="Sprites\saiko close.PNG" />
+    <Resource Include="Sprites\saiko open.PNG" />
+    <Resource Include="Sprites\saiko outside 2.PNG" />
+    <Resource Include="Sprites\saiko outside.PNG" />
+    <Resource Include="Sprites\satoru calm.PNG" />
+    <Resource Include="Sprites\satoru smiling.PNG" />
+    <Resource Include="Sprites\satoru thinking.PNG" />
+    <Resource Include="Sprites\tomoe.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

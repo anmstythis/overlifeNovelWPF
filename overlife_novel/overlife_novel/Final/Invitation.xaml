@@ -1,0 +1,31 @@
+﻿<Page x:Class="overlife_novel.Final.Invitation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:overlife_novel.Final"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="Invitation" Foreground="White" Background="Black">
+
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <MediaElement Name="notification" LoadedBehavior="Manual" MediaEnded="notification_MediaEnded"/>
+        <TextBlock x:Name="inviteTxt" Grid.ColumnSpan="2" Grid.RowSpan="2" TextWrapping="WrapWithOverflow" FontFamily="Candara" FontSize="24"/>
+        <Button x:Name="accept" Content="✔" Grid.Row="2" FontSize="36" IsEnabled="False" Visibility="Hidden" Click="accept_Click"/>
+        <Button x:Name="decline" Content="❌" Grid.Row="2" Grid.Column="1" FontSize="36" IsEnabled="False" Visibility="Hidden" Click="decline_Click"/>
+        <StackPanel x:Name="panel"  Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2"  Background="Black" Width="0">
+            <TextBlock x:Name="who" FontSize="28" FontFamily="Cascadia Mono SemiBold" Background="#293E5A"/>
+            <TextBlock x:Name="says" FontSize="24" TextWrapping="Wrap" Text="" FontFamily="Cascadia Code SemiLight"/>
+        </StackPanel>
+        <Button x:Name="next" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2" Opacity="0" Click="next_Click"/>
+    </Grid>
+</Page>
