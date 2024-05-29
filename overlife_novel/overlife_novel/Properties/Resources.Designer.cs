@@ -63,6 +63,15 @@ namespace overlife_novel.Properties {
         /// <summary>
         ///   Ищет локализованную строку, похожую на .
         /// </summary>
+        internal static string playerID {
+            get {
+                return ResourceManager.GetString("playerID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на .
+        /// </summary>
         internal static string playerName {
             get {
                 return ResourceManager.GetString("playerName", resourceCulture);

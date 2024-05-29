@@ -17,6 +17,9 @@ using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using JsonLibrary;
+using System.IO;
+using System.Globalization;
 
 namespace overlife_novel
 {
@@ -29,7 +32,6 @@ namespace overlife_novel
         bool isCalled;
         string player;
         List<string> wordsRi = new List<string> { "Где я?... Кто я?...", "Как меня зовут?", "... Вот как меня зовут...", "?... Кто это меня зовёт?" };
-
         public Prologue()
         {
             InitializeComponent();
@@ -44,7 +46,7 @@ namespace overlife_novel
                 if (index == 0)
                 {
                     says.Text = await Animations.TextAnimation(wordsRi[index + 1], 50, next, says);
-                    Animations.StackPanelAnim(stack, stack.ActualWidth, 500, 0.5);
+                    Animations.StackPanelAnim(stack, stack.ActualWidth, 500);
                 }
 
                 else if (index == 2)
@@ -57,7 +59,7 @@ namespace overlife_novel
                 {
                     await Medias.TextBlockNovel(player, Animations.TextAnimation(wordsRi[3], 50, next, says), who, says);
                     Medias.OptionWindow("Да. Лучше отозваться.\nНет. Я думаю, не стоит идти...", "Идти на зов?", this, "/YesRoute/YesPage.xaml",
-                        string.Empty, panel, who, says, null, null);
+                        "/NoRoute/NoPage.xaml", panel, who, says, null, null, "Пробуждение", "Сон?");
                 }
             }
         }
@@ -69,7 +71,7 @@ namespace overlife_novel
             {
                 player = name;
 
-                Animations.StackPanelAnim(stack, stack.ActualWidth, 0, 0.5);
+                Animations.StackPanelAnim(stack, stack.ActualWidth, 0);
 
                 notNameless = true;
             }

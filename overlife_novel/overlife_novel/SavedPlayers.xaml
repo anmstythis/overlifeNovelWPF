@@ -1,0 +1,28 @@
+﻿<Page x:Class="overlife_novel.SavedPlayers"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:overlife_novel"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="SavedPlayers" Background="Black">
+
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Image Grid.RowSpan="2" gif:ImageBehavior.AnimatedSource="gif comp.gif" Source="/gif comp.gif" Opacity="0.5" Stretch="UniformToFill"/>
+        <Button x:Name="goBack" Content="⬅" FontFamily="Cascadia Code SemiBold" FontSize="48" HorizontalAlignment="Left" Background="{x:Null}" Foreground="#FFCDD6F4" Click="goBack_Click" BorderBrush="{x:Null}"/>
+        <ListBox Grid.Row="1" x:Name="playersList" Background="{x:Null}" BorderBrush="{x:Null}">
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="continue" Header="Продолжить игру" Click="continue_Click"/>
+                    <MenuItem x:Name="delete" Header="Удалить слот" Click="delete_Click"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+        </ListBox>
+    </Grid>
+</Page>

@@ -118,7 +118,7 @@ namespace overlife_novel.Final
                 }
                 else
                 {
-                    Medias.ChosenOption(this, "/Final/DeclinePage.xaml", panel, who, says, mediaBack, sprite);
+                    Medias.ChosenOption(this, "/Final/DeclinePage.xaml", "Отказ от соглашения", panel, who, says, mediaBack, sprite);
                 }
             }
             else if (says.Text == wordsSatoru[2])

@@ -87,7 +87,7 @@ namespace overlife_novel.YesRoute
                 await Animations.Appear(panel, next, who, says, "???", wordsSaiko[3], sprite);
 
                 Medias.OptionWindow("Да. Проведи меня, пожалуйста! 😟\nНет. Я сама пойду.", "Что ответить?", this, "/YesRoute/GoingToSchoolWith.xaml", 
-                    "/YesRoute/GoingToSchoolAlone.xaml", panel, who, says, mediaBack, sprite);
+                    "/YesRoute/GoingToSchoolAlone.xaml", panel, who, says, mediaBack, sprite, "Поход в школу", "Поиск школы");
             }
             
         }

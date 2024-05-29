@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:overlife_novel.YesRoute"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="700"
-      Title="GoingToSchoolAlone" Background="Red">
+      Title="GoingToSchoolAlone" Background="DarkRed" Foreground="AntiqueWhite">
 
     <Grid>
-        
+        <TextBlock Text="в процессе разработки" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center"/>
     </Grid>
 </Page>

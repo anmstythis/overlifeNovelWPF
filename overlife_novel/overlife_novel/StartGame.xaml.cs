@@ -30,5 +30,10 @@ namespace overlife_novel
         {
             NavigationService.GetNavigationService(this).Navigate(new Uri("/Prologue.xaml", UriKind.RelativeOrAbsolute));
         }
+
+        private void loadGame_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GetNavigationService(this).Navigate(new Uri("/SavedPlayers.xaml", UriKind.RelativeOrAbsolute));
+        }
     }
 }

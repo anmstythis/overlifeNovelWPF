@@ -55,13 +55,13 @@ namespace overlife_novel.Final
         private async void accept_Click(object sender, RoutedEventArgs e)
         {
             await Animations.GridOpacityAnim(grid, grid.Opacity, 0);
-            Medias.ChosenOption(this, "/Final/AcceptPage.xaml", panel, who, says, null, null);
+            Medias.ChosenOption(this, "/Final/AcceptPage.xaml", "Поход в Корпорацию Нео", panel, who, says, null, null);
         }
 
         private async void decline_Click(object sender, RoutedEventArgs e)
         {
             await Animations.GridOpacityAnim(grid, grid.Opacity, 0);
-            Medias.ChosenOption(this, "/Final/DeclinePage.xaml", panel, who, says, null, null);
+            Medias.ChosenOption(this, "/Final/DeclinePage.xaml", "Отклонение приглашения", panel, who, says, null, null);
         }
     }
 }

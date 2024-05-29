@@ -19,7 +19,16 @@
     <Compile Update="Final\ToBeContinued.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="NoRoute\NoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PlayerData.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Prologue.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SavedPlayers.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="StartGame.xaml.cs">
@@ -29,6 +38,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="YesRoute\GoingToSchoolWith.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="YesRoute\InSchool.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="YesRoute\YesPage.xaml.cs">
@@ -51,7 +63,19 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="NoRoute\NoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PlayerData.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Prologue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\PanelStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SavedPlayers.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="StartGame.xaml">
@@ -61,6 +85,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="YesRoute\GoingToSchoolWith.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="YesRoute\InSchool.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="YesRoute\YesPage.xaml">

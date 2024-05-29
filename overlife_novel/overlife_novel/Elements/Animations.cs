@@ -12,17 +12,13 @@ namespace overlife_novel.Elements
 {
     internal class Animations
     {
-        public static void StackPanelAnim(StackPanel stackPanel, double? from, double? to, double time)
+        public static void StackPanelAnim(StackPanel stackPanel, double from, double to) //анимация панельки
         {
-            DoubleAnimation anim = new DoubleAnimation();
-            anim.From = from;
-            anim.To = to;
-            anim.Duration = TimeSpan.FromSeconds(time);
-
-            stackPanel.BeginAnimation(StackPanel.WidthProperty, anim);
+            var animation = AnimProperty(from, to, 0.3);
+            stackPanel.BeginAnimation(StackPanel.WidthProperty, animation);
         }
 
-        public static async Task<string> TextAnimation(string word, int speed, Button next, TextBlock says)
+        public static async Task<string> TextAnimation(string word, int speed, Button next, TextBlock says) //анимация текста
         {
             if (next != null)
             {
@@ -42,78 +38,75 @@ namespace overlife_novel.Elements
             return says.Text;
         }
 
-        public async static Task<bool> GridOpacityAnim(Grid grid, double from, double to)
+        public async static Task<bool> GridOpacityAnim(Grid grid, double from, double to) //прозрачность грида
         {
-            DoubleAnimationUsingKeyFrames anim = new DoubleAnimationUsingKeyFrames();
-            anim.Duration = TimeSpan.FromSeconds(1);
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(from, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(to, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
-            grid.BeginAnimation(Grid.OpacityProperty, anim);
+            var animation = AnimProperty(from, to, 1);
+            grid.BeginAnimation(Grid.OpacityProperty, animation);
 
             await Task.Delay(1000);
 
             return true;
         }
 
+        private static DoubleAnimationUsingKeyFrames AnimProperty(double from, double to, double time) //анимация
+        {
+            DoubleAnimationUsingKeyFrames anim = new DoubleAnimationUsingKeyFrames();
+            anim.Duration = TimeSpan.FromSeconds(1);
+            anim.KeyFrames.Add(new EasingDoubleKeyFrame(from, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(time - time))));
+            anim.KeyFrames.Add(new EasingDoubleKeyFrame(to, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(time))));
+
+            return anim;
+        }
         public async static Task<bool> ImgOpacityAnim(System.Windows.Controls.Image img, double from, double to)
         {
-            DoubleAnimationUsingKeyFrames anim = new DoubleAnimationUsingKeyFrames();
-            anim.Duration = TimeSpan.FromSeconds(1);
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(from, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(to, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
-            img.BeginAnimation(Grid.OpacityProperty, anim);
+            var animation = AnimProperty(from, to, 1);
+            img.BeginAnimation(Grid.OpacityProperty, animation);
 
             await Task.Delay(1000);
 
             return true;
         }
 
-        public async static Task<bool> MediaOpacityAnim(MediaElement media, double from, double to)
+        public async static Task<bool> MediaOpacityAnim(MediaElement media, double from, double to) //прозрачность медиа файла
         {
-            DoubleAnimationUsingKeyFrames anim = new DoubleAnimationUsingKeyFrames();
-            anim.Duration = TimeSpan.FromSeconds(1);
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(from, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(to, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
-            media.BeginAnimation(MediaElement.OpacityProperty, anim);
+            var animation = AnimProperty(from, to, 1);
+            media.BeginAnimation(MediaElement.OpacityProperty, animation);
 
             await Task.Delay(1000);
 
             return true;
         }
 
-        public async static Task<bool> LWOpacityAnim(ListView grid, double from, double to)
+        public async static Task<bool> LWOpacityAnim(ListView grid, double from, double to) //прозрачность табло
         {
-            DoubleAnimationUsingKeyFrames anim = new DoubleAnimationUsingKeyFrames();
-            anim.Duration = TimeSpan.FromSeconds(1);
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(from, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(0))));
-            anim.KeyFrames.Add(new EasingDoubleKeyFrame(to, KeyTime.FromTimeSpan(TimeSpan.FromSeconds(1))));
-            grid.BeginAnimation(ListView.OpacityProperty, anim);
+            var animation = AnimProperty(from, to, 1);
+            grid.BeginAnimation(ListView.OpacityProperty, animation);
 
             await Task.Delay(1000);
             return true;
         }
 
         public async static Task<bool> Appear(StackPanel panel, Button next, TextBlock who, TextBlock says, string person, string words, 
-            System.Windows.Controls.Image img)
+            System.Windows.Controls.Image img) //появление панельки
         {
-            StackPanelAnim(panel, panel.ActualWidth, 700, 0.3);
+            StackPanelAnim(panel, panel.ActualWidth, 700); //панелька
             await Task.Delay(300);
-            if (img != null)
+            if (img != null) //если есть спрайт
             {  
                 img.Opacity = 1;
             }
-            await Medias.TextBlockNovel(person, Animations.TextAnimation(words, 50, next, says), who, says);
+            await Medias.TextBlockNovel(person, Animations.TextAnimation(words, 50, next, says), who, says); //вывод текста
             return true;
         }
 
-        public async static Task<bool> Disappear(StackPanel panel, Button next, TextBlock who, TextBlock says, System.Windows.Controls.Image img)
+        public async static Task<bool> Disappear(StackPanel panel, Button next, TextBlock who, TextBlock says, System.Windows.Controls.Image img) //исчезновение панельки
         {
-            if (img != null)
+            if (img != null) //если есть спрайт
             {
                 img.Opacity = 0;
             }
-            await Medias.TextBlockNovel(string.Empty, Animations.TextAnimation(string.Empty, 0, next, says), who, says);
-            StackPanelAnim(panel, panel.ActualWidth, 0, 0.3);
+            await Medias.TextBlockNovel(string.Empty, Animations.TextAnimation(string.Empty, 0, next, says), who, says); //текст исчезает
+            StackPanelAnim(panel, panel.ActualWidth, 0); //панелька уменьшается в ширине
             await Task.Delay(300);
             return true;
         }

@@ -24,7 +24,7 @@ namespace overlife_novel.Final
         public ToBeContinued()
         {
             InitializeComponent();
-            media.Source = new Uri("../Images/to be continued.mp4", UriKind.Relative);
+            media.Source = new Uri("../Images/to be continued rus.mp4", UriKind.Relative);
             media.Play();
         }
 

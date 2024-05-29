@@ -1,0 +1,13 @@
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\bin\Debug\net8.0-windows7.0\JsonLibrary.deps.json
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\bin\Debug\net8.0-windows7.0\JsonLibrary.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\bin\Debug\net8.0-windows7.0\JsonLibrary.pdb
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.csproj.AssemblyReference.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.AssemblyInfoInputs.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.AssemblyInfo.cs
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.sourcelink.json
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\refint\JsonLibrary.dll
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\JsonLibrary.pdb
+C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\JsonLibrary\obj\Debug\net8.0-windows7.0\ref\JsonLibrary.dll

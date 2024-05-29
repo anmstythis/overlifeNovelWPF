@@ -15,7 +15,6 @@
         </Grid.RowDefinitions>
         <MediaElement x:Name="mediaBack" LoadedBehavior="Play" Opacity="0" Grid.RowSpan="2" HorizontalAlignment="Stretch"/>
         <Image x:Name="sprite" VerticalAlignment="Bottom" Width="300" Height="300" Grid.RowSpan="2" RenderTransformOrigin="0.518,0.51" Margin="0,0,0,100" Opacity="0"/>
-        <ListView x:Name="classTable" Visibility="Hidden" Opacity="0" SelectionChanged="classTable_SelectionChanged" IsEnabled="False"/>
         <MediaElement x:Name="sound" LoadedBehavior="Manual" Volume="1"/>
         <StackPanel x:Name="panel"  Grid.Row="1" Background="Black" Width="0">
             <TextBlock x:Name="who" FontSize="28" FontFamily="Cascadia Mono SemiBold" Background="#293E5A"/>
