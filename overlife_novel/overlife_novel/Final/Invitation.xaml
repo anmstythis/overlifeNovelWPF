@@ -20,8 +20,8 @@
         </Grid.ColumnDefinitions>
         <MediaElement Name="notification" LoadedBehavior="Manual" MediaEnded="notification_MediaEnded"/>
         <TextBlock x:Name="inviteTxt" Grid.ColumnSpan="2" Grid.RowSpan="2" TextWrapping="WrapWithOverflow" FontFamily="Candara" FontSize="24"/>
-        <Button x:Name="accept" Content="✔" Grid.Row="2" FontSize="36" IsEnabled="False" Visibility="Hidden" Click="accept_Click"/>
-        <Button x:Name="decline" Content="❌" Grid.Row="2" Grid.Column="1" FontSize="36" IsEnabled="False" Visibility="Hidden" Click="decline_Click"/>
+        <Button Style="{DynamicResource AcceptStyle}" x:Name="accept" Content="✔" Grid.Row="2" FontSize="36" IsEnabled="False" Visibility="Hidden"  Click="accept_Click"/>
+        <Button Style="{DynamicResource DeclineStyle}" x:Name="decline" Content="❌" Grid.Row="2" Grid.Column="1" FontSize="36" IsEnabled="False" Visibility="Hidden" Click="decline_Click"/>
         <StackPanel x:Name="panel"  Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2"  Background="Black" Width="0">
             <TextBlock x:Name="who" FontSize="28" FontFamily="Cascadia Mono SemiBold" Background="#293E5A"/>
             <TextBlock x:Name="says" FontSize="24" TextWrapping="Wrap" Text="" FontFamily="Cascadia Code SemiLight"/>

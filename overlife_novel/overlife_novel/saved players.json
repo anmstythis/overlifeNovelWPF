@@ -1,7 +1,17 @@
 [
   {
     "Name": "🥞",
-    "State": "/YesRoute/InSchool.xaml",
-    "StateName": "Школа"
+    "State": "/Final/AcceptPage.xaml",
+    "StateName": "Поход в Корпорацию Нео"
+  },
+  {
+    "Name": "💕",
+    "State": "/Final/DeclinePage.xaml",
+    "StateName": "Отклонение приглашения"
+  },
+  {
+    "Name": "💨",
+    "State": "/Final/AcceptPage.xaml",
+    "StateName": "Поход в Корпорацию Нео"
   }
 ]

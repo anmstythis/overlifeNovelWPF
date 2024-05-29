@@ -61,7 +61,7 @@ namespace overlife_novel.Final {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/overlife_novel;V1.0.0.0;component/final/tobecontinued.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/overlife_novel;component/final/tobecontinued.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Final\ToBeContinued.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

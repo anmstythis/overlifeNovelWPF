@@ -69,7 +69,7 @@ namespace overlife_novel {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/overlife_novel;V1.0.0.0;component/playerdata.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/overlife_novel;component/playerdata.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PlayerData.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\My\OneDrive\Документы\конспекты\ОАиП C#\визуальная новелла\overlife_novel\overlife_novel\App.xaml
-151871451772
+20844049493
 
 23-1418915764
 201139185568
-Final\AcceptPage.xaml;Final\DeclinePage.xaml;Final\Invitation.xaml;Final\ToBeContinued.xaml;MainWindow.xaml;NoRoute\NoPage.xaml;PlayerData.xaml;Prologue.xaml;Resources\PanelStyle.xaml;SavedPlayers.xaml;StartGame.xaml;YesRoute\GoingToSchoolAlone.xaml;YesRoute\GoingToSchoolWith.xaml;YesRoute\InSchool.xaml;YesRoute\YesPage.xaml;
+Final\AcceptPage.xaml;Final\DeclinePage.xaml;Final\Invitation.xaml;Final\ToBeContinued.xaml;MainWindow.xaml;NoRoute\NoPage.xaml;PlayerData.xaml;Prologue.xaml;Resources\AcceptButtonStyle.xaml;Resources\ArrowButtonStyle.xaml;Resources\ClassTableStyle.xaml;Resources\DeclineButtonStyle.xaml;Resources\PanelStyle.xaml;Resources\StartButtonStyle.xaml;SavedPlayers.xaml;StartGame.xaml;YesRoute\GoingToSchoolAlone.xaml;YesRoute\GoingToSchoolWith.xaml;YesRoute\InSchool.xaml;YesRoute\YesPage.xaml;
 
 False
 

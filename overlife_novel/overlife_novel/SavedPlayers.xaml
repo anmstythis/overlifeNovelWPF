@@ -15,7 +15,7 @@
             <RowDefinition Height="6*"/>
         </Grid.RowDefinitions>
         <Image Grid.RowSpan="2" gif:ImageBehavior.AnimatedSource="gif comp.gif" Source="/gif comp.gif" Opacity="0.5" Stretch="UniformToFill"/>
-        <Button x:Name="goBack" Content="⬅" FontFamily="Cascadia Code SemiBold" FontSize="48" HorizontalAlignment="Left" Background="{x:Null}" Foreground="#FFCDD6F4" Click="goBack_Click" BorderBrush="{x:Null}"/>
+        <Button Style="{DynamicResource ArrowButtonStyle}" x:Name="goBack" Content="⬅" FontFamily="Cascadia Code SemiBold" FontSize="48" HorizontalAlignment="Left" Background="{x:Null}" Foreground="#FFCDD6F4" Click="goBack_Click" BorderBrush="{x:Null}"/>
         <ListBox Grid.Row="1" x:Name="playersList" Background="{x:Null}" BorderBrush="{x:Null}">
             <ListBox.ContextMenu>
                 <ContextMenu>

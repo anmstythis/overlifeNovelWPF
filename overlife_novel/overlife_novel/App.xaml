@@ -4,6 +4,16 @@
              xmlns:local="clr-namespace:overlife_novel"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PanelStyle.xaml"/>
+                <ResourceDictionary Source="/Resources/ArrowButtonStyle.xaml"/>
+                <ResourceDictionary Source="/Resources/StartButtonStyle.xaml"/>
+                <ResourceDictionary Source="/Resources/AcceptButtonStyle.xaml"/>
+                <ResourceDictionary Source="/Resources/DeclineButtonStyle.xaml"/>
+                <ResourceDictionary Source="/Resources/ClassTableStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

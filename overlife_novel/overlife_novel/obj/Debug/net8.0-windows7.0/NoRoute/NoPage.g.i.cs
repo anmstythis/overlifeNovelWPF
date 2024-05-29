@@ -53,7 +53,7 @@ namespace overlife_novel.NoRoute {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/overlife_novel;V1.0.0.0;component/noroute/nopage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/overlife_novel;component/noroute/nopage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\NoRoute\NoPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

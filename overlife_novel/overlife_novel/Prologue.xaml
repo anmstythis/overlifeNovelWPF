@@ -18,8 +18,8 @@
         </StackPanel>
         <Button x:Name="next" Grid.Row="1" Opacity="0" Click="next_Click"/>
         <StackPanel x:Name="stack" Height="100" Width="0">
-            <TextBox x:Name="yourName" Height="50" FontFamily="Cascadia Code SemiLight" TextWrapping="Wrap"/>
-            <Button x:Name="saveName" Height="50" Content="Сохранить имя" Click="saveName_Click" FontFamily="Cascadia Code SemiBold"/>
+            <TextBox Style="{DynamicResource NamingTextBoxStyle}" x:Name="yourName" Height="50" FontFamily="Cascadia Code SemiLight" FontSize="20pt"  TextWrapping="Wrap"/>
+            <Button Style="{DynamicResource NamingButtonStyle}" x:Name="saveName" Height="50" Content="СОХРАНИТЬ ИМЯ" Click="saveName_Click" FontSize="14pt" FontFamily="Cascadia Code SemiBold"/>
         </StackPanel>
     </Grid>
 </Page>

@@ -20,9 +20,9 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Image gif:ImageBehavior.AnimatedSource="gif comp.gif"  Grid.ColumnSpan="2" Grid.RowSpan="3"  Source="/gif comp.gif" Stretch="UniformToFill" Opacity="0.9"/>
-        <TextBlock Text="OVERLIFE (фрагмент)" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" FontFamily="Cascadia Code SemiBold" FontWeight="Bold" Foreground="#FFCDD6F4"/>
+        <TextBlock Text="OVERLIFE (фрагмент)" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20pt" FontFamily="Cascadia Code SemiBold" FontWeight="Bold" Foreground="#FFCDD6F4"/>
         <Image gif:ImageBehavior.AnimatedSource="ritsu-waving.gif" Source="/ritsu-waving.gif" Grid.Column="1" />
-        <Button x:Name="newGame" Grid.Row="1" Content="Новая игра" Click="newGame_Click" FontFamily="Cascadia Code SemiLight"/>
-        <Button x:Name="loadGame" Grid.Row="2" Content="Загрузить игру" FontFamily="Cascadia Mono SemiLight" Click="loadGame_Click"/>
+        <Button Style="{DynamicResource StartingButtonStyle}" x:Name="newGame" Grid.Row="1" Content="Новая игра" Click="newGame_Click" FontFamily="Cascadia Code SemiLight" FontSize="16pt"/>
+        <Button Style="{DynamicResource StartingButtonStyle}" x:Name="loadGame" Grid.Row="2" Content="Загрузить игру" FontFamily="Cascadia Mono SemiLight" Click="loadGame_Click" FontSize="16pt"/>
     </Grid>
 </Page>

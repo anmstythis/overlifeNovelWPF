@@ -117,7 +117,7 @@ namespace overlife_novel.YesRoute {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/overlife_novel;V1.0.0.0;component/yesroute/goingtoschoolwith.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/overlife_novel;component/yesroute/goingtoschoolwith.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\YesRoute\GoingToSchoolWith.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
